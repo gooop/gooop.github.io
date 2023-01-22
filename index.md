@@ -1,37 +1,26 @@
-## Welcome
+# Welcome
 
-You can use the [editor on GitHub](https://github.com/gooop/gooop.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Thank you for visiting my github webpage. This is still a work in progress, but feel free to check out any of the links to my public projects below!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Systematic Rat
 
-### Markdown
+[Systematic Rat](https://github.com/gooop/Systematic-Rat) is a discord bot that can do things such as create polls and create announcement messages.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Current Features
 
-```markdown
-Syntax highlighted code block
+- Poll/Multipoll/Weekday Poll Creation
+- Other chat gags
 
-# Header 1
-## Header 2
-### Header 3
+### Planned Features
 
-- Bulleted
-- List
+- Event Creation
+- Announcement Messages
+- Pinned Message/Stored Message Recall
+- Music Sharing
+- Video Sharing
 
-1. Numbered
-2. List
+## iPad Calculator
 
-**Bold** and _Italic_ and `Code` text
+[iPad Calculator](https://github.com/gooop/iPad-Calculator) is an app written in Swift Playgrounds very similar to the native iOS calculator on the iPhone with added features such as a history and better data entry.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gooop/gooop.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+_Images coming soon_
