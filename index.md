@@ -4,7 +4,7 @@ Thank you for visiting my github webpage. This is still a work in progress, but 
 
 ## Systematic Rat
 
-[Systematic Rat](https://github.com/gooop/Systematic-Rat) is a discord bot that can do things such as create polls and create announcement messages.
+[Systematic Rat](https://github.com/gooop/Systematic-Rat) is a discord bot that uses asyncronous event listeners and organizes its commands into [Cogs](https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html). It can do things such as create polls and create announcement messages.
 
 ### Current Features
 
