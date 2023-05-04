@@ -9,16 +9,17 @@ Thank you for visiting my github webpage. This is still a work in progress, but 
 ### Current Features
 
 - Poll/Multipoll/Weekday Poll Creation
-- Announcements
+- Announcement Messages
 - Other chat gags
 
 ### Planned Features
 
 - Event Creation
-- Announcement Messages
 - Pinned Message/Stored Message Recall
 - Music Sharing
+- Playlist Creation
 - Video Sharing
+- Email Integration
 
 ## iPad Calculator
 
