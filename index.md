@@ -11,6 +11,7 @@ Thank you for visiting my github webpage. This is still a work in progress, but 
 - Poll/Multipoll/Weekday Poll Creation
 - Announcement Messages
 - Other chat gags
+- Email Integration
 
 ### Planned Features
 
@@ -19,7 +20,7 @@ Thank you for visiting my github webpage. This is still a work in progress, but 
 - Music Sharing
 - Playlist Creation
 - Video Sharing
-- Email Integration
+
 
 ## iPad Calculator
 
