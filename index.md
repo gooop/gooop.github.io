@@ -29,7 +29,7 @@ Thank you for visiting my github webpage. This is still a work in progress, but 
 - Asyncronous Event Listeners
 
 ## Simple Monte Carlo
-[Simple Monte Carlo](https://gooop.github.io/Simple-Monte-Carlo/) Will be a simple (2D) implementation of a Monte Carlo Simulation written in Rust. You will be able to draw arbitrary polygons and see their approximate area visually.
+[Simple Monte Carlo](https://gooop.github.io/Simple-Monte-Carlo/) will be a simple (2D) implementation of a Monte Carlo Simulation written in Rust. You will be able to draw arbitrary polygons and see their approximate area visually.
 
 ## iPad Calculator
 
