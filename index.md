@@ -21,6 +21,13 @@ Thank you for visiting my github webpage. This is still a work in progress, but 
 - Playlist Creation
 - Video Sharing
 
+### Tech Used
+
+- Python 3
+- Gmail API
+- Discord API
+- Asyncronous Event Listeners
+
 
 ## iPad Calculator
 
