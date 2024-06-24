@@ -28,11 +28,16 @@ Thank you for visiting my github webpage. This is still a work in progress, but 
 - Discord API
 - Asyncronous Event Listeners
 
-## Simple Monte Carlo
-[Simple Monte Carlo](https://gooop.github.io/Simple-Monte-Carlo/) will be a simple (2D) implementation of a Monte Carlo Simulation written in Rust. You will be able to draw arbitrary polygons and see their approximate area visually.
+## Kurosawa Shader
 
-## iPad Calculator
+[Kurosawa Shader](https://github.com/gooop/kurosawa-shader) is a 2D fragment shader for Minecraft that adds toggleable effects.
 
-[iPad Calculator](https://github.com/gooop/iPad-Calculator) is an app written in Swift Playgrounds very similar to the native iOS calculator on the iPhone with added features such as a history and better data entry.
+### Effects
+- Letterboxing
+- Film Grain
+- Tone Curve
 
-_Images coming soon_
+### Screenshots
+![kurosawa-screenshot](./assets/kurosawa.png)
+ 
+
