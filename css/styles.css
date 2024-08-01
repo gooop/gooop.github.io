@@ -1,5 +1,6 @@
 body {
-    background-color: #fff6de
+    background: url(../assets/noise-bg-2000x2000.png)
+    /* background-color: rgb(255, 246, 222) */
 }
 
 .title {
