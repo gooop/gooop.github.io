@@ -22,3 +22,41 @@ body {
 .title a:hover {
     text-decoration: underline;
 }
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    margin-bottom: 2%;
+}
+
+.nav-bar li a {
+    font-size: 35pt;
+    color: black;
+    opacity: .75;
+    text-decoration: none;
+}
+
+.nav-bar .current {
+    opacity: 1;
+}
+
+.nav-bar .current span {
+    text-decoration: underline;
+}
+
+.nav-bar li a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    gap: 10px;
+
+}
+}
