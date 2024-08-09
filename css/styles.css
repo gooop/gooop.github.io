@@ -23,6 +23,18 @@ body {
     text-decoration: underline;
 }
 
+.non-title {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0px;
+    align-self: flex-start;
+}
+
 .nav-bar ul {
     list-style-type: none;
 }
@@ -30,6 +42,7 @@ body {
 .nav-bar ul li {
     list-style-type: none;
     margin-bottom: 2%;
+
 }
 
 .nav-bar li a {
@@ -57,7 +70,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
     margin: 10px;
     gap: 10px;
-
 }
 
 .project {
