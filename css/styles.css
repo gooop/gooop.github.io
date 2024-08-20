@@ -65,6 +65,10 @@ body {
     text-decoration: underline;
 }
 
+.content ul {
+    list-style-type: none;
+}
+
 .spacer {
     flex-grow: .5;
 }
