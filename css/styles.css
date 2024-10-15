@@ -3,6 +3,11 @@ body {
     /* background-color: rgb(255, 246, 222) */
 }
 
+/* DEBUG */
+/* * {
+    outline: 1px solid #2a9252;
+} */
+
 .title {
     margin-left: 1%;
 }
@@ -65,8 +70,19 @@ body {
     text-decoration: underline;
 }
 
+.content {
+    display: flex;
+    gap: 10px;
+}
+
 .content ul {
     list-style-type: none;
+}
+
+.profilephoto > img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .spacer {
@@ -92,12 +108,34 @@ body {
     min-width: 300px;
     aspect-ratio: 1 / 1;
 
-    /* Coloring */
-    background: url(../assets/kurosawa.png) 50% 50% no-repeat;
-
     /* Shadowing */
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project1 {
+    background-image: url(../assets/project1/header.png);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.project2 {
+    background-image: url(../assets/project2/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project3 {
+    background-image: url(../assets/project3/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project4 {
+    background-image: url(../assets/project4/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .project:hover {
@@ -114,4 +152,10 @@ body {
     bottom: 0;
     left: 7%;
     color: white;
+    text-shadow: 2px 2px 0px #000000, 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.project4 h2 {
+    color: black;
+    text-shadow: 2px 2px 0px #ffffff, 4px 4px 0px rgba(0,0,0,0.25);
 }
