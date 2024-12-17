@@ -1,0 +1,175 @@
+body {
+    background: url(../assets/noise-bg-2000x2000.png);
+    /* background-color: rgb(255, 246, 222) */
+}
+
+/* DEBUG */
+/* * {
+    outline: 1px solid #2a9252;
+} */
+
+.title {
+    margin-left: 1%;
+}
+
+.title h1 {
+    margin-top: 0;
+    font-size: 50pt;
+    margin-bottom: 0;
+}
+
+.title a {
+    font-size: 16pt;
+    color: #777777;
+    text-decoration: none;
+}
+
+.title a:hover {
+    text-decoration: underline;
+}
+
+.non-title {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0px;
+    align-self: flex-start;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    margin-bottom: 2%;
+
+}
+
+.nav-bar li a {
+    font-size: 35pt;
+    color: black;
+    opacity: .75;
+    text-decoration: none;
+}
+
+.nav-bar .current {
+    opacity: 1;
+}
+
+.nav-bar .current span {
+    text-decoration: underline;
+}
+
+.nav-bar li a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content ul {
+    list-style-type: none;
+}
+
+.contact-cards > ul > li {
+    display: inline-block;
+}
+
+.contact-cards > ul > li > figure > a > img {
+    max-width: 128px;
+}
+
+.contact-cards > ul > li > figure > figcaption {
+    text-align: center;
+}
+
+.profilephoto > img{
+    width: 100%;
+    max-width: 512px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.spacer {
+    flex-grow: .5;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.project {
+    /* Alignment */
+    display: flex;
+    position: relative; /* for the text  */
+    flex-direction: column;
+
+    /* Sizing */
+    max-width: 100%;
+    min-width: 300px;
+    aspect-ratio: 1 / 1;
+
+    /* Shadowing */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project1 {
+    background-image: url(../assets/project1/header.png);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.project2 {
+    background-image: url(../assets/project2/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project3 {
+    background-image: url(../assets/project3/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project4 {
+    background-image: url(../assets/project4/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+            rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+            rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+            rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+            rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* TODO: Add animation of pane coming up behind the text*/
+}
+
+.project h2 {
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+    color: white;
+    text-shadow: 2px 2px 0px #000000, 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.project4 h2 {
+    color: black;
+    text-shadow: 2px 2px 0px #ffffff, 4px 4px 0px rgba(0,0,0,0.25);
+}
