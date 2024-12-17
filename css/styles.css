@@ -72,6 +72,7 @@ body {
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -79,8 +80,21 @@ body {
     list-style-type: none;
 }
 
+.contact-cards > ul > li {
+    display: inline-block;
+}
+
+.contact-cards > ul > li > figure > a > img {
+    max-width: 128px;
+}
+
+.contact-cards > ul > li > figure > figcaption {
+    text-align: center;
+}
+
 .profilephoto > img{
     width: 100%;
+    max-width: 512px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
